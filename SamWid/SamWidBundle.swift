@@ -12,6 +12,6 @@ import SwiftUI
 struct SamWidBundle: WidgetBundle {
     var body: some Widget {
         SamWid()
-        SamWidLiveActivity()
+//        SamWidLiveActivity() 
     }
 }

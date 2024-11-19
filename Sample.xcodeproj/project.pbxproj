@@ -14,6 +14,14 @@
 		BCF476632CECD89E003E89F0 /* SampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCF476622CECD89E003E89F0 /* SampleTests.swift */; };
 		BCF4766D2CECD89E003E89F0 /* SampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCF4766C2CECD89E003E89F0 /* SampleUITests.swift */; };
 		BCF4766F2CECD89E003E89F0 /* SampleUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCF4766E2CECD89E003E89F0 /* SampleUITestsLaunchTests.swift */; };
+		BCF476822CECED48003E89F0 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCF476812CECED48003E89F0 /* WidgetKit.framework */; };
+		BCF476842CECED48003E89F0 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCF476832CECED48003E89F0 /* SwiftUI.framework */; };
+		BCF476872CECED48003E89F0 /* SamWidBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCF476862CECED48003E89F0 /* SamWidBundle.swift */; };
+		BCF476892CECED48003E89F0 /* SamWidLiveActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCF476882CECED48003E89F0 /* SamWidLiveActivity.swift */; };
+		BCF4768B2CECED48003E89F0 /* SamWid.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCF4768A2CECED48003E89F0 /* SamWid.swift */; };
+		BCF4768D2CECED49003E89F0 /* AppIntent.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCF4768C2CECED48003E89F0 /* AppIntent.swift */; };
+		BCF4768F2CECED4C003E89F0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BCF4768E2CECED4C003E89F0 /* Assets.xcassets */; };
+		BCF476932CECED4C003E89F0 /* SamWidExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = BCF4767F2CECED48003E89F0 /* SamWidExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,7 +39,28 @@
 			remoteGlobalIDString = BCF4764D2CECD89B003E89F0;
 			remoteInfo = Sample;
 		};
+		BCF476912CECED4C003E89F0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BCF476462CECD89B003E89F0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BCF4767E2CECED48003E89F0;
+			remoteInfo = SamWidExtension;
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		BCF476972CECED4C003E89F0 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				BCF476932CECED4C003E89F0 /* SamWidExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		BCF4764E2CECD89B003E89F0 /* Sample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sample.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +73,15 @@
 		BCF476682CECD89E003E89F0 /* SampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BCF4766C2CECD89E003E89F0 /* SampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleUITests.swift; sourceTree = "<group>"; };
 		BCF4766E2CECD89E003E89F0 /* SampleUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		BCF4767F2CECED48003E89F0 /* SamWidExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = SamWidExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCF476812CECED48003E89F0 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		BCF476832CECED48003E89F0 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		BCF476862CECED48003E89F0 /* SamWidBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SamWidBundle.swift; sourceTree = "<group>"; };
+		BCF476882CECED48003E89F0 /* SamWidLiveActivity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SamWidLiveActivity.swift; sourceTree = "<group>"; };
+		BCF4768A2CECED48003E89F0 /* SamWid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SamWid.swift; sourceTree = "<group>"; };
+		BCF4768C2CECED48003E89F0 /* AppIntent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppIntent.swift; sourceTree = "<group>"; };
+		BCF4768E2CECED4C003E89F0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BCF476902CECED4C003E89F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +106,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		BCF4767C2CECED48003E89F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCF476842CECED48003E89F0 /* SwiftUI.framework in Frameworks */,
+				BCF476822CECED48003E89F0 /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -77,6 +124,8 @@
 				BCF476502CECD89B003E89F0 /* Sample */,
 				BCF476612CECD89E003E89F0 /* SampleTests */,
 				BCF4766B2CECD89E003E89F0 /* SampleUITests */,
+				BCF476852CECED48003E89F0 /* SamWid */,
+				BCF476802CECED48003E89F0 /* Frameworks */,
 				BCF4764F2CECD89B003E89F0 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -87,6 +136,7 @@
 				BCF4764E2CECD89B003E89F0 /* Sample.app */,
 				BCF4765E2CECD89E003E89F0 /* SampleTests.xctest */,
 				BCF476682CECD89E003E89F0 /* SampleUITests.xctest */,
+				BCF4767F2CECED48003E89F0 /* SamWidExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -127,6 +177,28 @@
 			path = SampleUITests;
 			sourceTree = "<group>";
 		};
+		BCF476802CECED48003E89F0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BCF476812CECED48003E89F0 /* WidgetKit.framework */,
+				BCF476832CECED48003E89F0 /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BCF476852CECED48003E89F0 /* SamWid */ = {
+			isa = PBXGroup;
+			children = (
+				BCF476862CECED48003E89F0 /* SamWidBundle.swift */,
+				BCF476882CECED48003E89F0 /* SamWidLiveActivity.swift */,
+				BCF4768A2CECED48003E89F0 /* SamWid.swift */,
+				BCF4768C2CECED48003E89F0 /* AppIntent.swift */,
+				BCF4768E2CECED4C003E89F0 /* Assets.xcassets */,
+				BCF476902CECED4C003E89F0 /* Info.plist */,
+			);
+			path = SamWid;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -137,10 +209,12 @@
 				BCF4764A2CECD89B003E89F0 /* Sources */,
 				BCF4764B2CECD89B003E89F0 /* Frameworks */,
 				BCF4764C2CECD89B003E89F0 /* Resources */,
+				BCF476972CECED4C003E89F0 /* Embed Foundation Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				BCF476922CECED4C003E89F0 /* PBXTargetDependency */,
 			);
 			name = Sample;
 			productName = Sample;
@@ -183,6 +257,23 @@
 			productReference = BCF476682CECD89E003E89F0 /* SampleUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		BCF4767E2CECED48003E89F0 /* SamWidExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCF476942CECED4C003E89F0 /* Build configuration list for PBXNativeTarget "SamWidExtension" */;
+			buildPhases = (
+				BCF4767B2CECED48003E89F0 /* Sources */,
+				BCF4767C2CECED48003E89F0 /* Frameworks */,
+				BCF4767D2CECED48003E89F0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SamWidExtension;
+			productName = SamWidExtension;
+			productReference = BCF4767F2CECED48003E89F0 /* SamWidExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -204,6 +295,9 @@
 						CreatedOnToolsVersion = 15.1;
 						TestTargetID = BCF4764D2CECD89B003E89F0;
 					};
+					BCF4767E2CECED48003E89F0 = {
+						CreatedOnToolsVersion = 15.1;
+					};
 				};
 			};
 			buildConfigurationList = BCF476492CECD89B003E89F0 /* Build configuration list for PBXProject "Sample" */;
@@ -222,6 +316,7 @@
 				BCF4764D2CECD89B003E89F0 /* Sample */,
 				BCF4765D2CECD89E003E89F0 /* SampleTests */,
 				BCF476672CECD89E003E89F0 /* SampleUITests */,
+				BCF4767E2CECED48003E89F0 /* SamWidExtension */,
 			);
 		};
 /* End PBXProject section */
@@ -247,6 +342,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCF4767D2CECED48003E89F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCF4768F2CECED4C003E89F0 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -279,6 +382,17 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		BCF4767B2CECED48003E89F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCF4768B2CECED48003E89F0 /* SamWid.swift in Sources */,
+				BCF4768D2CECED49003E89F0 /* AppIntent.swift in Sources */,
+				BCF476872CECED48003E89F0 /* SamWidBundle.swift in Sources */,
+				BCF476892CECED48003E89F0 /* SamWidLiveActivity.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -291,6 +405,11 @@
 			isa = PBXTargetDependency;
 			target = BCF4764D2CECD89B003E89F0 /* Sample */;
 			targetProxy = BCF476692CECD89E003E89F0 /* PBXContainerItemProxy */;
+		};
+		BCF476922CECED4C003E89F0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BCF4767E2CECED48003E89F0 /* SamWidExtension */;
+			targetProxy = BCF476912CECED4C003E89F0 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -417,6 +536,7 @@
 		BCF476732CECD89E003E89F0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -446,6 +566,7 @@
 		BCF476742CECD89E003E89F0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -548,6 +669,60 @@
 			};
 			name = Release;
 		};
+		BCF476952CECED4C003E89F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2AG62S6R8X;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SamWid/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = SamWid;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jp.co.hyt.Sample.SamWid;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BCF476962CECED4C003E89F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2AG62S6R8X;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SamWid/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = SamWid;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jp.co.hyt.Sample.SamWid;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -583,6 +758,15 @@
 			buildConfigurations = (
 				BCF476792CECD89E003E89F0 /* Debug */,
 				BCF4767A2CECD89E003E89F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BCF476942CECED4C003E89F0 /* Build configuration list for PBXNativeTarget "SamWidExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCF476952CECED4C003E89F0 /* Debug */,
+				BCF476962CECED4C003E89F0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

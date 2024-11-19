@@ -47,6 +47,8 @@ struct SamWidEntryView : View {
 
             Text("Favorite Emoji:")
             Text(entry.configuration.favoriteEmoji)
+            
+            Text("Hello")
         }
     }
 }
